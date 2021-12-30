@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7831" started-at="2021-12-30T20:05:58 IST" finished-at="2021-12-30T20:06:06 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7831" started-at="2021-12-30T20:05:58 IST" finished-at="2021-12-30T20:06:06 IST">
+      <class name="com.tests.AddBookUsingExternalFiles">
+        <test-method status="PASS" signature="addBook(java.lang.reflect.Method)[pri:0, instance:com.tests.AddBookUsingExternalFiles@27808f31]" name="addBook" duration-ms="5873" started-at="2021-12-30T20:06:00 IST" finished-at="2021-12-30T20:06:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tests.AddBookUsingExternalFiles.addBook(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+      </class> <!-- com.tests.AddBookUsingExternalFiles -->
+      <class name="com.tests.GetBook">
+        <test-method status="PASS" signature="getBook()[pri:0, instance:com.tests.GetBook@37d31475]" name="getBook" duration-ms="5874" started-at="2021-12-30T20:06:00 IST" finished-at="2021-12-30T20:06:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBook -->
+      </class> <!-- com.tests.GetBook -->
+      <class name="com.tests.AddBook">
+        <test-method status="PASS" signature="addBook()[pri:0, instance:com.tests.AddBook@307f6b8c]" name="addBook" duration-ms="5874" started-at="2021-12-30T20:06:00 IST" finished-at="2021-12-30T20:06:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+      </class> <!-- com.tests.AddBook -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "book_name": {
+          "type": "string"
+        },
+        "isbn": {
+          "type": "string"
+        },
+        "aisle": {
+          "type": "string"
+        },
+        "author": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "book_name",
+        "isbn",
+        "aisle",
+        "author"
+      ]
+    }
+  ]
+}
